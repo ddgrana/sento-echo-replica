@@ -18,9 +18,9 @@ const HeroSection = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                Transformamos tus 
-                <span className="text-primary"> ideas</span> en 
-                <span className="text-primary"> soluciones tecnológicas</span>
+                Le damos vida a productos electrónicos a través de una 
+                <span className="text-primary"> solución integral</span> de manufactura y 
+                <span className="text-primary"> supply chain</span> ágil y flexible
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                 Somos expertos en desarrollo web, aplicaciones móviles y consultoría tecnológica. 

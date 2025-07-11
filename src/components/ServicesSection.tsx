@@ -5,40 +5,39 @@ import { Code2, Smartphone, Globe, Database, Shield, Zap } from 'lucide-react';
 const ServicesSection = () => {
   const services = [
     {
-      icon: Code2,
-      title: 'Desarrollo Web',
-      description: 'Creamos sitios web modernos, responsivos y optimizados para SEO. Utilizamos las últimas tecnologías como React, Next.js y Node.js.',
-      features: ['Diseño responsivo', 'Optimización SEO', 'Panel de administración', 'Integración APIs']
+      icon: Zap,
+      title: 'Sento Process Integration',
+      description: 'Conectividad e integración completa de sistemas físicos con soluciones IoT avanzadas.',
+      features: [
+        'Conectividad de sistemas físicos a la nube',
+        'Automatización y control de procesos mediante IoT',
+        'Inspección constante inteligente'
+      ]
     },
     {
       icon: Smartphone,
-      title: 'Aplicaciones Móviles',
-      description: 'Desarrollamos apps nativas e híbridas para iOS y Android que ofrecen una experiencia de usuario excepcional.',
-      features: ['Apps nativas', 'Apps híbridas', 'UI/UX optimizado', 'Push notifications']
-    },
-    {
-      icon: Globe,
-      title: 'Consultoría Tecnológica',
-      description: 'Asesoramos a empresas en su transformación digital, arquitectura de software y estrategias tecnológicas.',
-      features: ['Auditoría técnica', 'Arquitectura de software', 'Migración a la nube', 'Estrategia digital']
+      title: 'Sento Product Aplicability',
+      description: 'Dispositivos IoT especializados y sensores autónomos para diversas industrias.',
+      features: [
+        'Dispositivos IoT adaptables a tu industria',
+        'Sensores de temperatura, humedad e iluminosidad autónomos conectados a la nube',
+        'Sensores de concentración de CO2, pH y óxido-reducción conectados a la nube',
+        'Sensores de consumo y aporte energético para la industria solar'
+      ]
     },
     {
       icon: Database,
-      title: 'Backend & APIs',
-      description: 'Desarrollamos backends robustos y APIs escalables que soportan tus aplicaciones web y móviles.',
-      features: ['APIs RESTful', 'Bases de datos', 'Microservicios', 'Documentación completa']
-    },
-    {
-      icon: Shield,
-      title: 'Seguridad Web',
-      description: 'Implementamos medidas de seguridad avanzadas para proteger tus aplicaciones y datos empresariales.',
-      features: ['Auditoría de seguridad', 'SSL/TLS', 'Autenticación', 'Protección contra ataques']
-    },
-    {
-      icon: Zap,
-      title: 'Optimización & Performance',
-      description: 'Optimizamos el rendimiento de tus aplicaciones para garantizar velocidad y una experiencia fluida.',
-      features: ['Análisis de rendimiento', 'Optimización de código', 'CDN', 'Monitoreo continuo']
+      title: 'Sento Electronics Hub',
+      description: 'Gestión integral de la cadena de suministro y manufactura de productos electrónicos.',
+      features: [
+        'Gestión de la cadena de suministro para la fabricación de productos electrónicos',
+        'PCB Assembly',
+        'Production of metal and plastic parts',
+        'Ensamblaje mecánico',
+        'Revisión de diseños para manufactura',
+        'Logística internacional de suministro y entrega',
+        'Testeos y QA de firmware'
+      ]
     }
   ];
 
