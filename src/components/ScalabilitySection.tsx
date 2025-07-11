@@ -51,17 +51,14 @@ const ScalabilitySection = () => {
             </div>
           </div>
 
-          {/* Image placeholder - similar to the reference */}
+          {/* Image */}
           <div className="lg:order-first">
-            <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-              <div className="text-center p-8">
-                <div className="w-24 h-24 bg-primary/20 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <TrendingUp className="w-12 h-12 text-primary" />
-                </div>
-                <p className="text-muted-foreground">
-                  Nos adaptamos al momento en el que esté tu iniciativa
-                </p>
-              </div>
+            <div className="aspect-square rounded-lg overflow-hidden">
+              <img 
+                src="/lovable-uploads/a054cd9b-e364-44b7-99d4-792dcd3d0d04.png" 
+                alt="Nos adaptamos al momento en el que esté tu iniciativa"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
